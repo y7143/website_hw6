@@ -2,9 +2,7 @@ name: "Yay internet!"
 output_dir: "."
 navbar:
   title: "Home"
-  right:
-    - icon: fa-envelope fa-lg
-      href: mailto:<dy2360@cumc.columbia.edu>
+ 
 output:
   html_document:
   theme: sandstone
