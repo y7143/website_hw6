@@ -21,6 +21,9 @@ The original data is quite extensive, and the data linked to at the top of this 
 \
 \
 
+
+
+
 #Method
 You can find the plotly dashboard we create from [here](Instacart_plotly.html) and shiny dashboard from this github Rmarkdown[here](https://github.com/sw3236/instacart_shiny).
 
@@ -31,3 +34,12 @@ Further we would like to know how these numbers differ in different day of week.
 Finally we also want to find the distribution of the number of items sold in order hour of the day by aisle and depatment. Here we use line and point to draw the distribution plot. 
 
 For the shiny part, we first include the select widget for all three plots. In that way, for example, we can examine the distribution of the department that you select instead of multiple lines at the same plot. Moreover, we include the slider widget for the bar plot so that we can only see a specific range of numbers we want to restrict in the bar plot.
+
+#Result
+From bar plot we can find that in dairy eggs department, the most sell items are yogurt, while refrigerated pudding desserts sold a few thousand items. In the produce department, fresh vegetables ans fruits are of same count.
+
+In the heatmap, we can find that most of goods are sold relatively more at Sunday and Monday. In the dairy eggs department, we can find little difference of purchasing something like cheese,milk and butter between weekday and weekends. 
+
+From the distribution plot, most of orders are placed from 12:00 to 15:00. In each department, the distribution of aisle are nearly same except for their order count, which is reasonable in most of cases. In beverage department, it seems that people buying water tend to be earier to order earier than those buying other beverages.
+
+The github repositories for this homework are [plotly](https://github.com/y7143/Instacart_plotly),[shiny](https://github.com/sw3236/instacart_shiny),[website](https://github.com/y7143/website_hw6).
