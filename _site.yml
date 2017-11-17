@@ -2,6 +2,5 @@ name: "Yay internet!"
 output_dir: "."
 navbar:
   title: "Home"
- 
 output:
-  html_document:
+  html_document
