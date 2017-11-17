@@ -20,3 +20,14 @@ In this dashboard, We use the "Instacart" dataset to make some exploratory analy
 The original data is quite extensive, and the data linked to at the top of this page for use in the class represents a cleaned and limited version of the data. The dataset contains 1,384,617 observations of 131,209 unique users, where each row in the dataset is a product from an order.
 \
 \
+
+#Method
+You can find the plotly dashboard we create from [here](Instacart_plotly.html) and shiny dashboard from this github Rmarkdown[here](https://github.com/sw3236/instacart_shiny).
+
+First we are curious about the number of item sold by each aisle in each department, so we draw a bar plot to show the difference in their numbers by departments. For the neat he arranges bars from the least to the most.
+
+Further we would like to know how these numbers differ in different day of week. Here we draw a heatmap where x axis is aisle and y axis is weekday. 
+
+Finally we also want to find the distribution of the number of items sold in order hour of the day by aisle and depatment. Here we use line and point to draw the distribution plot. 
+
+For the shiny part, we first include the select widget for all three plots. In that way, for example, we can examine the distribution of the department that you select instead of multiple lines at the same plot. Moreover, we include the slider widget for the bar plot so that we can only see a specific range of numbers we want to restrict in the bar plot.
